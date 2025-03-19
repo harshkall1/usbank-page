@@ -1,0 +1,336 @@
+.login-main {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #fff;
+
+}
+
+body {}
+
+
+.login-hero {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+    border: 1px solid #a3a3a3;
+    border-top: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .login-hero {
+        max-width: calc(100% - 20px);
+    }
+
+    .banner-popup {
+        left: 20px !important;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .login-banneraera {
+        width: 55% !important;
+    }
+
+    .login-form-area {
+        width: 45% !important;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .login-banneraera {
+        width: 100% !important;
+        min-height: 450px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-form-area {
+        width: 100% !important;
+    }
+
+    .login-hero {
+        flex-direction: column-reverse;
+    }
+
+    .banner-popup {
+        top: 80px !important;
+        left: 50% !important;
+        transform: translate(-50%, 0) !important;
+    
+    }
+}
+
+
+
+.login-banneraera {
+    width: 70%;
+    background-image: url('https://www.usbank.com/dam/en/images/photos/common/photo-man-smiling-with-golf-club-1050x700.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.login-form-area {
+    width: 30%;
+}
+
+.banner-popup {
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -14%;
+    border: 1px solid #a3a3a3;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.login-main * {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login-main img {
+    width: 100%;
+    height: auto;
+}
+
+.login-box {
+    background-color: #fff;
+    color: #767477;
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.login-welcome-title {
+    font-size: 16px !important;
+}
+
+
+.login-topside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-open-account-btn {
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 32px;
+    border: none;
+    background: #398100;
+    margin-top: 10px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #005eb8;
+    font-size: 10px !important;
+    margin-bottom: 15px;
+}
+
+.login-link-grey {
+    color: #7c7c7c !important;
+}
+
+
+.login-link-grey:hover {
+    color: #7c7c7c !important;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+    color: #0a3c6b !important;
+}
+
+.login-input-group {
+    font-size: 16px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.login-input-field {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.login-input-field:focus {
+    border-bottom: 2px solid #005eb8;
+}
+
+.login-show-password {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #005eb8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login-remember2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.login-remember-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.login-sign-in-btn {
+    border-radius: 5px;
+    background-color: #005eb8;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.login-sign-in-btn:hover {
+    background-color: #004a9f;
+}
+
+.login-links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-link {
+    color: #005eb8;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+.account-container {
+    max-width: 600px;
+    padding: 50px 20px;
+    margin: auto;
+    width: 100%;
+}
+
+.page-bx {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-header .logo {
+    max-width: 120px;
+}
+
+.top-header .logout-btn {
+    background-color: #fff;
+    border: 1px solid #004a9f;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    color: #004a9f;
+}
+
+.top-header .logout-btn:hover {
+    background-color: #004a9f;
+    color: #fff;
+}
+
+.account-header h2 {
+    color: #000;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.page-bx h3 {
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.page-bx h4 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.accountnumber {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #767477;
+}
+
+.price {
+    font-size: 40px;
+    color: #8e8e8e;
+    margin-top: 5px;
+
+}
+
+.detailarea {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.detailbx {
+    min-width: calc(50% - 10px);
+}
